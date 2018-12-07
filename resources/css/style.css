@@ -11,13 +11,14 @@
     box-sizing:border-box;
 }
 
-html{
+html,body{
     background-color:#fff;
     color:#555;
     font-family: 'Lato','Arial',sans-serif;
     font-size:20px;
     font-weight:300;
     text-rendering:optimizeLegibility;
+    overflow-x:hidden;
 }
 
 
@@ -193,7 +194,6 @@ header{
     float:right;
     list-style:none;
     margin-top:55px;
-
 }
 
 .main-nav li{
@@ -517,3 +517,4 @@ footer p{
     text-align:center;
     color:#888;
 }
+
